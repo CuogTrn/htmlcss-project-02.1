@@ -310,3 +310,66 @@ a {
     font-weight: 500;
     background: #1ebfc1;
 }
+
+.features {
+    margin-top: 130px;
+}
+
+.features .body {
+    width: 1024px;
+}
+
+.feature-top .subtitle {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.feature-top .title {
+    width: 577px;
+    color: #0d1111;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.33;
+}
+
+.feature-top .desc {
+    width: 590px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.features .feature-bottom {
+    margin-top: 80px;
+}
+
+.features .feature-list {
+    display: flex;
+    margin-left: auto;
+}
+
+.feature-bottom .feature-item {
+    min-width: 168px;
+    max-width: 224px;
+    margin-right: 200px;
+}
+
+.feature-bottom .feature-item:last-child {
+    margin-right: 0;
+}
+
+.feature-bottom .feature-heading {
+    margin-top: 26px;
+    color: #0d1111;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.feature-bottom .desc {
+    margin-top: 16px;
+    color: #9da6a5;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.68;
+}
