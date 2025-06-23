@@ -10,3 +10,65 @@ body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
 }
+
+/* Common */
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+.header .body {
+    display: flex;
+    align-items: center;
+    padding: 52px 0 0 0;
+}
+
+.navbar {
+    margin-left: auto;
+}
+
+.navbar .list {
+    display: flex;
+}
+
+.navbar .item a {
+    padding: 8px 20px;
+    color: #2f3a3b;
+}
+
+.navbar .item:first-child a {
+    color: #2f3a3b;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.action {
+    margin-left: calc(177px - 30px);
+}
+
+.btn {
+    padding: 8px 12px;
+}
+
+.action .cta-signin {
+    color: #494949;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.action .cta-signup {
+    color: #1ebfc1;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 6px;
+    border: 1px solid #1ebfc1;
+    padding: 12px 24px;
+    margin-left: 12px;
+}
