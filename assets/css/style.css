@@ -493,9 +493,6 @@ a {
     display: flex;
 }
 
-.stats {
-}
-
 .stats .body {
     width: 862px;
     height: 131px;
@@ -520,4 +517,133 @@ a {
     color: #767e7e;
     font-size: 1.8rem;
     font-weight: 400;
+}
+
+.feedback {
+    margin-top: 264px;
+    padding: 40px 0;
+}
+
+.feedback .body {
+    display: flex;
+    align-items: center;
+    height: 481px;
+}
+
+.feedback .feedback-content {
+    width: 36%;
+}
+
+.feedback blockquote {
+    width: 419px;
+    margin-top: 24px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+}
+
+.feedback .info {
+    margin-top: 33px;
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.feedback .info strong {
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.feedback .control {
+    margin-top: 52px;
+    width: 130px;
+}
+
+.feedback .control-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: #2ac9bf;
+    color: #fff;
+}
+
+.feedback .control-btn + .control-btn {
+    margin-left: 20px;
+}
+
+.feedback-avatar {
+    position: relative;
+    width: calc(100% - 36%);
+    height: 481px;
+    margin-left: 72px;
+}
+
+.feedback-avatar img {
+    position: absolute;
+    top: 107px;
+    bottom: 139px;
+    left: 273px;
+    right: 171px;
+    width: 235px;
+    height: 235px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback-avatar img:nth-child(1) {
+    top: 107px;
+    bottom: 139px;
+    left: 273px;
+    right: 171px;
+}
+
+.feedback-avatar img:nth-child(2) {
+    width: 92px;
+    height: 92px;
+    top: 0;
+    bottom: 389px;
+    left: 144px;
+    right: 443px;
+}
+
+.feedback-avatar img:nth-child(3) {
+    width: 110px;
+    height: 110px;
+    top: 19px;
+    bottom: 352px;
+    left: 569px;
+    right: 0;
+}
+
+.feedback-avatar img:nth-child(4),
+.feedback-avatar img:nth-child(5),
+.feedback-avatar img:nth-child(6) {
+    width: 78px;
+    height: 78px;
+}
+
+.feedback-avatar img:nth-child(4) {
+    top: 258px;
+    bottom: 145px;
+    left: 0;
+    right: 601px;
+}
+
+.feedback-avatar img:nth-child(5) {
+    top: 403px;
+    bottom: 0;
+    left: 212px;
+    right: 389px;
+}
+
+.feedback-avatar img:nth-child(6) {
+    top: 374px;
+    bottom: 29px;
+    left: 569px;
+    right: 32px;
 }
