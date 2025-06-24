@@ -18,7 +18,7 @@ body {
 /* Common */
 .main-content {
     width: 1170px;
-    max-width: calc(100% - 48px);
+    max-width: calc(100vw - 48px);
     margin-left: auto;
     margin-right: auto;
 }
@@ -646,4 +646,41 @@ a {
     bottom: 29px;
     left: 569px;
     right: 32px;
+}
+
+.subscription {
+    margin-top: 130px;
+    background: #def6f5;
+}
+
+.subscription .body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 76px 0 88px;
+}
+
+.subscription .title {
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+
+.subscription .desc {
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 18px;
+}
+
+.subscription .btn {
+    width: 186px;
+    height: 68px;
+    border-radius: 14px;
+    background: #2ac9bf;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
 }
